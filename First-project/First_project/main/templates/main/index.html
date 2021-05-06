@@ -1,0 +1,19 @@
+{% load static%}
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="{% static  'main/css/index.css' %}">
+</head>
+<body>
+    <div class="content_block">
+        <h1>Это первый мой проект на django!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae fugit illum impedit, in iure nam praesentium quis sunt. Dolores expedita maxime officia quas, sunt suscipit vero! Atque cumque dolores mollitia!</p>
+        <a href="{% url 'index2' %}"><p><span>Переход на вторую страницу</span></p></a>
+    </div>
+</body>
+</html>
