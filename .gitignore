@@ -4,5 +4,9 @@ Lib/
 Scripts/
 include/
 venv/
+<<<<<<< HEAD:.gitignore
 .idea/
 
+=======
+.idea/
+>>>>>>> 5b772fe... Update .gitignore:First-project/.gitignore
