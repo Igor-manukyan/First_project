@@ -4,4 +4,4 @@ Lib/
 Scripts/
 include/
 venv/
-.idea/
+/.idea
